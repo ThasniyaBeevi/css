@@ -1,0 +1,49 @@
+table,th,td{
+	border: 1px solid grey;
+	border-collapse: collapse;
+
+}
+th{
+	color: #5c73af;
+	text-align: left;
+	padding-left: 7px;
+}
+table{
+	width: 1000px;
+	height: 300px;
+	font-family: sans-serif;
+
+	
+}
+td{
+	color: #606571;
+	padding-left: 7px;
+}
+.eye{
+	color: deepskyblue;
+}
+.pencil{
+	color: yellow;
+}
+.trash{
+	color: red;
+}
+.center{
+	text-align: center;
+}
+.space{
+	padding-right: 10px;
+}
+h1{
+	font-family: sans-serif;
+	margin-left: 369px;
+	color: #5c73af;
+	font-style: oblique;
+}
+
+*{
+	align-content: center;
+}
+#color{
+	color: #606571;
+}

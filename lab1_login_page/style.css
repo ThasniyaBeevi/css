@@ -1,0 +1,102 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+body{
+	
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+}
+
+.col-1{
+
+	background: #090736;
+	width: 50%;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	height: 450px;
+	text-align: left;
+	float: left;
+	padding: 15% 5%;
+}
+
+	
+
+.col-2{
+
+	background: #23995c;
+	padding: 15% 5%;
+	width: 30%;
+	height: 450px;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	float: left;
+	text-align: left;
+	
+}
+
+#text{
+
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.for-btn{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid white;
+	padding: 12px 34px;
+	font-size: 13px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+
+.for-btn:hover{
+	border: 1px solid #23995c;
+	background: #23995c;
+	transition: 1s;
+}
+
+.login-fields {
+
+	padding: 5% 0px;	
+	position: relative;
+	text-align: left;	
+}
+
+.login-input {
+
+	padding-top: 5%;
+	padding-bottom: 2%;
+	border: none;
+	border-bottom: 2px solid white;
+	background: none;
+	
+	width: 75%;
+	transition: .2s;
+}
+
+::placeholder{
+	color: white;
+}
+
+input:focus{
+	color: white;
+}
+
+.login:hover{
+	border: 1px solid #090736;
+	background: #090736;
+	transition: 1s;
+}
+
+.login-fields a{
+	text-decoration: none;
+	color: white;
+	padding-left: 5%;
+}
